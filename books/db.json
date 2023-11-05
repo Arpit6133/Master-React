@@ -1,12 +1,8 @@
 {
   "books": [
     {
-      "title": "Arpit Dayma",
-      "id": 1
-    },
-    {
-      "title": "Harry Potter",
-      "id": 3
+      "title": "Fad",
+      "id": 2
     }
   ]
 }
