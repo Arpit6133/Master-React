@@ -1,24 +1,27 @@
 import React from 'react';
-import Button from './Button';
+import Accordion from './components/Accordion';
 
 export default function App() {
+  const items = [
+    {
+      id : 'qe123e1',
+      label : 'Can I use React on a project?',
+      content : 'You can use React anywhere you want.'
+    },
+    {
+      id : 'qe323e1',
+      label : 'Can I use JavaScript on a project?',
+      content : 'You can use JavaScript anywhere you want.'
+    },
+    {
+      id : 'qe023e1',
+      label : 'Can I use Css on a project?',
+      content : 'You can use Css anywhere you want.'
+    }
+  ]
   return (
     <div>
-      <div>
-        <Button primary outline rounded>But Now</Button>
-      </div>
-      <div>
-        <Button success rounded >Click Me!</Button>
-      </div>
-      <div>
-        <Button danger>You Can</Button>
-      </div>
-      <div>
-        <Button secondary>Broooooo!</Button>
-      </div>
-      <div>
-        <Button warning>WTFF!!</Button>
-      </div>
+      <Accordion items={items}/>
     </div>
   )
-};
+}
