@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "Anne Waters",
+      "id": 8
+    },
+    {
+      "name": "Emmett Casper",
+      "id": 9
+    },
+    {
+      "name": "Jeff Schuster",
+      "id": 10
+    },
+    {
+      "name": "Noah Simonis",
+      "id": 11
+    },
+    {
+      "name": "Ricardo Batz",
+      "id": 12
+    },
+    {
+      "name": "Mrs. Leona Dietrich",
+      "id": 13
+    },
+    {
+      "name": "Alfred Kunze",
+      "id": 14
+    },
+    {
+      "name": "Rene Rippin",
+      "id": 15
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "photos": {
+    "name": "typicode"
+  }
+}
